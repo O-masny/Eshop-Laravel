@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Gambetta ;
+    src: url("/public/fonts/gambeta/Gambetta-Regular.ttf") format("ttf");
+    color: aquamarine;
+}
+@font-face {
+    font-family: Gambetta-Light ;
+    src: url("/public/fonts/gambeta/Gambetta-Light.ttf") format("ttf");
+}
+@font-face {
+    font-family: Tanker;
+    src: url("../../public/fonts/tanker/Tanker-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: Gambetta-Light ;
+    src: url("/public/fonts/generalSans/GeneralSans-Light.ttf") format("ttf");
+}

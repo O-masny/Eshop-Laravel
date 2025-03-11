@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
+            $table->foreign('photo_id')->references('id')->on('photos');
             $table->string('name'); // Přidání sloupce pro název produktu
             $table->text('description'); // Přidání sloupce pro popis produktu
             $table->decimal('price', 8, 2); // Přidání sloupce pro cenu (8 číslic, 2 desetinná místa)
